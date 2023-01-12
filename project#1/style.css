@@ -1,0 +1,105 @@
+.navbar {
+    background-color: #19283f;
+}
+
+#log {
+    width: 70px;
+    height: 40px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:active {
+    color: rgb(23, 228, 23);
+}
+
+.navbar .navbar-nav .nav-link:focus {
+    color: rgb(23, 228, 23);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(23, 228, 23);
+}
+
+.search {
+    border-left: 1px solid green;
+}
+
+.search svg {
+    border-left: 1px solid rgb(13, 226, 13);
+}
+
+/* --------------------------------- */
+
+.landing {
+    background-color: #19283f;
+    min-height: calc(100vh - 70px);
+}
+
+@media only screen and (min-width: 335px) {
+    #p1 {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #p1 {
+        width: 100%;
+    }
+}
+
+#par {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#par>span {
+    white-space: pre;
+}
+
+#par>span::after {
+    content: " ";
+}
+
+/* ------------------ */
+
+.skills {
+    background-color: cadetblue;
+}
+
+.skills .u li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+.skills .u li a:focus {
+    color: green;
+    text-decoration: none;
+}
+
+.skills .u li a:active {
+    color: green;
+    text-decoration: none;
+}
+
+/* -------------- */
+
+.training {
+    background-color: darkgray;
+}
+
+.footer {
+    background-color: #19283f;
+}
+
+.footer img {
+    width: 70px;
+    height: 40px;
+}
+
+.row {
+    display: inline;
+}
